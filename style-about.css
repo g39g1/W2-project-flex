@@ -20,19 +20,28 @@
 .section4 p,
 .section5 p,
 .section6 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   align-items: center;
   text-align: center;
-  text-align: left;
-  /* text-transform: ; */
+
   word-spacing: 1.5px;
   font-size: 1.3em;
+
+
 }
 
 .section3 h1,
 .section4 h1,
 .section5 h1,
 .section6 h1 {
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* text-align: left; */
   text-transform: capitalize;
   color: rgb(214, 92, 5);
   font-size: 1.9em;

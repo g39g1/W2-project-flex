@@ -63,12 +63,14 @@
 .input p {
   color: rgb(214, 92, 5);
   font-size: 160%;
+  margin-left:3% ;
 }
 
 .input select {
   width: 20%;
   height: 100%;
   border-radius: 3rem;
+  margin-left:3% ;
 }
 
 .button1 {
@@ -77,6 +79,7 @@
   background-color: rgb(220, 97, 9);
   border-radius: 10%;
   width: 10%;
+  margin-left:3% ;
 }
 
 .button1:hover {
@@ -89,9 +92,10 @@
   width: 50%;
   border-radius: 250%;
   height: auto;
+  margin-left:3% ;
 }
 
-.section7 h1,
+.section7 h1, h2,
 .section8 h1,
 .section9 h1,
 .section10 h1,
@@ -109,6 +113,7 @@
 .section13 p,
 .section14 p,
 .section15 p {
+    margin-left:3% ;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

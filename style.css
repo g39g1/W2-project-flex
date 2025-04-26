@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.index-sec-1 {
+  height: 80vh;
+  background-image: url(./images/image1.png);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 7vh; */
+  list-style: none;
+
+  width: 80%;
+  font-size: large;
+  a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+}
+.nav-btn {
+  width: 15vh;
+  height: 6vh;
+  font-size: small;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(255, 115, 64);
+  color: aliceblue;
+}
+.nav-btn:hover {
+  background-color: aliceblue;
+  color: rgb(255, 115, 64);
+}
+a:hover {
+  color: rgb(255, 115, 64);
+}
+.index-header {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5vh;
+  font-size: 1.99em;
+  color: aliceblue;
+}
+.btn {
+  width: 15%;
+  height: 6vh;
+  font-size: medium;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(255, 115, 64);
+  color: aliceblue;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: rgb(255, 115, 64);
+}
+.index-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index-video {
+  height: 179vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  margin-top: 3%;
+}
+.para-of-video {
+  font-size: 3em;
+  font-style: bold;
+}
+.video-para {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 4vh;
+}
+.hestory-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4vh;
+}
+.hestory-titel {
+  font-size: 2.5em;
+}
+.hestory {
+  font-size: 1.79em;
+}
+.hestory-btn {
+  width: 20vh;
+  height: 7vh;
+  font-size: medium;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(255, 115, 64);
+  color: aliceblue;
+}
+.hestory-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 115, 64);
+}
+.index-sec-3{
+    height: 50vh;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column ;
+}

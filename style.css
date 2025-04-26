@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
-body{
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:"width" 100;
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "width" 100;
 }
 .index-sec-1 {
   height: 80vh;
   background-image: url(./images/image1.png);
   background-size: cover;
 }
-nav {
+.index-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -102,7 +102,7 @@ a:hover {
 .video-para {
   /* margin: 3%; */
   border: 1px solid dimgray;
-  background-color:dimgray ;
+  background-color: dimgray;
   box-shadow: 5px 3px 15px black;
   width: 80%;
   height: 150vh;
@@ -161,54 +161,130 @@ a:hover {
 .index-sec-3-header {
   font-size: 2.2em;
   color: aliceblue;
-
 }
 .index-sec-3-para {
   color: aliceblue;
   font-size: 1.6em;
 }
-.index-sec-4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-    padding: 10px ;
+.index-sec-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 10px;
 }
-.index-sec-4-para-titel{
-    font-size: 2.2em;
-    padding-bottom: 5vh;
+.index-sec-4-para-titel {
+  font-size: 2.2em;
+  padding-bottom: 5vh;
 }
-.index-sec-4-para-body{
-    font-size: 1.6em;
+.index-sec-4-para-body {
+  font-size: 1.6em;
 }
-.index-sec-5{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
-    padding: 10px ;
-    background-color: dimgray;
-    box-shadow: 1px 1px 10px black;
+.index-sec-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 10px;
+  background-color: dimgray;
+  box-shadow: 1px 1px 10px black;
 }
-.index-sec-5-para-titel{
-    font-size: 2.2em;
-    padding-bottom: 5vh;
-    color: aliceblue;
+.index-sec-5-para-titel {
+  font-size: 2.2em;
+  padding-bottom: 5vh;
+  color: aliceblue;
 }
-.index-sec-5-para-body{
-    font-size: 1.6em;
-    color: aliceblue;
+.index-sec-5-para-body {
+  font-size: 1.6em;
+  color: aliceblue;
 }
-.index-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 15vh;
+.index-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  border-top: 0px solid black;
+  background-color: white ;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* ------------------------ */
+/* Start contact.html style */
+/* ------------------------ */
 
+.nav-anouther {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0px solid black;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  gap: 50vh;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: rgb(255, 115, 64);
+  }
+}
+.logo-image {
+  display: flex;
+  justify-content: start;
+}
+.naother-nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 10vh;
+}
+.contact-sec-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.image-contry{
+  width: 30%;
+}
+.contacr-header{
+  font-size: 5em;
+}
+.service{
+  font-size: 1.3em;
+  span{
+    color:  rgb(255, 115, 64);
+  }
+}
+.contact-sec-3{
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 3%;
+  border: 1px solid rgb(255, 115, 64);
+  border-radius: 15%;
+  background-color: rgb(255, 115, 64) ;
+  box-shadow: 0px 1px 10px black;
+  color: aliceblue;
+  width: 30%;
 
+  gap: 5vh;
+}
+.info-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
